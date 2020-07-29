@@ -6,15 +6,15 @@ function blah($input)
 {
     switch ($input) {
       case 'one':
-        return "blah_one";
+        return 'blah_one';
         break;
 
       default:
-        return "blah_default";
+        return 'blah_default';
     }
 }
 
-$x = blah("two");
+$x = blah('two');
 var_dump($x);
 
 echo "\n";
