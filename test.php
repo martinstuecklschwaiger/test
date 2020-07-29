@@ -1,9 +1,11 @@
-<?php declare(strict_types=1);
+<?php
 
-function blah() {
-  return 13;
+declare(strict_types=1);
+
+function blah()
+{
+    return 13;
 }
-
 
 $x = blah();
 
