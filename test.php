@@ -2,13 +2,19 @@
 
 declare(strict_types=1);
 
-function blah()
+function blah($input)
 {
-    return 13;
+    switch ($input) {
+      case 'one':
+        return "blah_one";
+        break;
+
+      default:
+        return "blah_default";
+    }
 }
 
-$x = blah();
-
+$x = blah("two");
 var_dump($x);
 
 echo "\n";
