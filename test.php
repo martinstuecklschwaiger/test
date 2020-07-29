@@ -7,8 +7,6 @@ function blah($input)
     switch ($input) {
       case 'one':
         return 'blah_one';
-        break;
-
       default:
         return 'blah_default';
     }
