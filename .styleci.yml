@@ -1,3 +1,6 @@
 preset: recommended
 
 risky: true
+
+enabled:
+  - no_break_comment
