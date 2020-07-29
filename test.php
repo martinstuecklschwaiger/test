@@ -8,9 +8,10 @@ function blah($input, $other)
       case 'one':
         if ($other === 'one') {
             return 'real_one';
+        } else {
+            return 'blah_one';
         }
 
-        return 'blah_one';
       default:
         return 'blah_default';
     }
